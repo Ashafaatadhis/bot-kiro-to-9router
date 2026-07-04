@@ -37,7 +37,8 @@ venv.bak/
 .env
 account.txt
 tokens.json
-logs/
+logs/*
+!logs/.gitkeep
 *.log
 
 # Chrome driver

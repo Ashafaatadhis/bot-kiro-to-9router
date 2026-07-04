@@ -22,6 +22,7 @@ HEADLESS_MODE = False  # Set True untuk headless mode (tidak tampil browser)
 BROWSER_TYPE = "chrome"  # chrome, firefox, edge
 WAIT_TIMEOUT = 15  # Detik (dikurangi untuk lebih cepat)
 TYPING_DELAY = 0  # 0 = tidak ada delay typing (kecepatan maksimal)
+PARALLEL_BROWSERS = 2  # Jumlah browser yang jalan bersamaan (2-3 recommended)
 
 # File paths
 ACCOUNTS_FILE = "account.txt"
