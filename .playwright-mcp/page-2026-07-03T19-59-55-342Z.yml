@@ -1,0 +1,76 @@
+- generic [ref=e1]:
+  - img
+  - generic [ref=e4]:
+    - main [ref=e5]:
+      - generic [ref=e10]:
+        - img "Kiro" [ref=e12]
+        - generic [ref=e13]:
+          - heading "Choose a way to sign in/sign up" [level=1] [ref=e14]
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - button "Google Sign in" [active] [ref=e17] [cursor=pointer]:
+                - generic [ref=e19]:
+                  - generic [ref=e20]:
+                    - img [ref=e21]:
+                      - img [ref=e22]
+                    - text: Google
+                  - generic [ref=e24]:
+                    - text: Sign in
+                    - img [ref=e25]:
+                      - img [ref=e26]
+              - button "GitHub Sign in" [ref=e28] [cursor=pointer]:
+                - generic [ref=e30]:
+                  - generic [ref=e31]:
+                    - img [ref=e32]:
+                      - img [ref=e33]
+                    - text: GitHub
+                  - generic [ref=e35]:
+                    - text: Sign in
+                    - img [ref=e36]:
+                      - img [ref=e37]
+              - button "Builder ID Sign in" [ref=e39] [cursor=pointer]:
+                - generic [ref=e41]:
+                  - generic [ref=e42]:
+                    - img [ref=e43]:
+                      - img [ref=e44]
+                    - text: Builder ID
+                  - generic [ref=e46]:
+                    - text: Sign in
+                    - img [ref=e47]:
+                      - img [ref=e48]
+              - button "Your organization Sign in" [ref=e50] [cursor=pointer]:
+                - generic [ref=e52]:
+                  - generic [ref=e53]: Your organization
+                  - generic [ref=e54]:
+                    - text: Sign in
+                    - img [ref=e55]:
+                      - img [ref=e56]
+            - paragraph [ref=e59]:
+              - text: By signing in and using Kiro, you agree to the
+              - link "AWS Customer Agreement" [ref=e60] [cursor=pointer]:
+                - /url: https://aws.amazon.com/agreement/
+              - text: (or other agreement with us governing your use of AWS services),
+              - link "Service Terms" [ref=e61] [cursor=pointer]:
+                - /url: https://aws.amazon.com/service-terms/
+              - text: ","
+              - link "Privacy Notice" [ref=e62] [cursor=pointer]:
+                - /url: https://aws.amazon.com/privacy/
+              - text: ", and"
+              - link "AWS Intellectual Property License" [ref=e63] [cursor=pointer]:
+                - /url: https://aws.amazon.com/legal/aws-ip-license-terms/
+              - text: .
+    - contentinfo [ref=e64]:
+      - link "Amazon Web Services" [ref=e65] [cursor=pointer]:
+        - /url: https://aws.amazon.com
+      - generic [ref=e66]:
+        - link "Site Terms" [ref=e67] [cursor=pointer]:
+          - /url: https://aws.amazon.com/terms/
+        - link "License" [ref=e68] [cursor=pointer]:
+          - /url: https://kiro.dev/license/
+        - link "Responsible AI Policy" [ref=e69] [cursor=pointer]:
+          - /url: https://aws.amazon.com/ai/responsible-ai/policy/
+        - link "Legal" [ref=e70] [cursor=pointer]:
+          - /url: https://aws.amazon.com/legal/
+        - link "Privacy Policy" [ref=e71] [cursor=pointer]:
+          - /url: https://aws.amazon.com/privacy/
+        - button "Cookie Preferences" [ref=e74] [cursor=pointer]

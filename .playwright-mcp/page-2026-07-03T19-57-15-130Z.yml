@@ -1,0 +1,54 @@
+- generic [ref=f11e3]:
+  - generic [ref=f11e4]:
+    - generic [ref=f11e6]:
+      - generic [ref=f11e7]: Loading
+      - progressbar [ref=f11e8]
+    - main [ref=f11e15]:
+      - generic [ref=f11e16]:
+        - generic [ref=f11e19]:
+          - img [ref=f11e21]
+          - generic [ref=f11e26]: Sign in with Google
+        - generic [ref=f11e27]:
+          - heading "Choose an account" [level=1] [ref=f11e28]
+          - generic [ref=f11e30]:
+            - text: to continue to
+            - button "kiro-prod-us-east-1.auth.us-east-1.amazoncognito.com" [ref=f11e31] [cursor=pointer]
+      - generic [ref=f11e34]:
+        - list [ref=f11e42]:
+          - listitem [ref=f11e43]:
+            - link "Kelxt 4 kelxt4@lamakau.com" [ref=f11e44] [cursor=pointer]:
+              - generic [ref=f11e48]:
+                - generic [ref=f11e49]: Kelxt 4
+                - generic [ref=f11e50]: kelxt4@lamakau.com
+          - listitem [ref=f11e51]:
+            - link "Use another account" [ref=f11e52] [cursor=pointer]:
+              - generic [ref=f11e53]:
+                - img [ref=f11e55]
+                - generic [ref=f11e58]: Use another account
+        - generic [ref=f11e61]:
+          - text: Before using this app, you can review kiro-prod-us-east-1.auth.us-east-1.amazoncognito.com’s
+          - link "Privacy Policy" [ref=f11e62] [cursor=pointer]:
+            - /url: https://aws.amazon.com/privacy/
+          - text: and
+          - link "Terms of Service" [ref=f11e63] [cursor=pointer]:
+            - /url: https://aws.amazon.com/terms/
+          - text: .
+  - contentinfo [ref=f11e68]:
+    - combobox "Change language English (United States)" [ref=f11e72] [cursor=pointer]:
+      - generic:
+        - generic: English (United States)
+      - generic:
+        - img
+    - list [ref=f11e74]:
+      - listitem [ref=f11e75]:
+        - link "Open Google Account Help Center (external, opens in a new window)" [ref=f11e76] [cursor=pointer]:
+          - /url: https://support.google.com/accounts?hl=en&p=account_iph
+          - text: Help
+      - listitem [ref=f11e77]:
+        - link "Privacy Policy (external, opens in a new window)" [ref=f11e78] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=ID&hl=en&privacy=true
+          - text: Privacy
+      - listitem [ref=f11e79]:
+        - link "Google Terms of Service (external, opens in a new window)" [ref=f11e80] [cursor=pointer]:
+          - /url: https://accounts.google.com/TOS?loc=ID&hl=en
+          - text: Terms
